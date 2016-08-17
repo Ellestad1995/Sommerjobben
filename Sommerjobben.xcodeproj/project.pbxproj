@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5531936F1C24420700A9BAE7 /* ViewController07.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5531936E1C24420700A9BAE7 /* ViewController07.swift */; };
+		553193711C2477E100A9BAE7 /* globalValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553193701C2477E100A9BAE7 /* globalValues.swift */; };
+		5556824A1BEE4C0A00E217ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555682491BEE4C0A00E217ED /* AppDelegate.swift */; };
+		5556824D1BEE4C0A00E217ED /* Sommerjobben.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5556824B1BEE4C0A00E217ED /* Sommerjobben.xcdatamodeld */; };
+		5556824F1BEE4C0A00E217ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5556824E1BEE4C0A00E217ED /* ViewController.swift */; };
+		555682521BEE4C0A00E217ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555682501BEE4C0A00E217ED /* Main.storyboard */; };
+		555682541BEE4C0A00E217ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 555682531BEE4C0A00E217ED /* Images.xcassets */; };
+		555682571BEE4C0A00E217ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 555682551BEE4C0A00E217ED /* LaunchScreen.xib */; };
+		555682631BEE4C0A00E217ED /* SommerjobbenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555682621BEE4C0A00E217ED /* SommerjobbenTests.swift */; };
+		5556826F1BEE4FB200E217ED /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5556826E1BEE4FB200E217ED /* TableViewCell.swift */; };
+		555682711BEE601400E217ED /* ViewController02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555682701BEE601400E217ED /* ViewController02.swift */; };
+		5556827A1BEE7FD100E217ED /* ViewController03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555682781BEE7FD100E217ED /* ViewController03.swift */; };
+		5556827B1BEE7FD100E217ED /* ViewController03.xib in Resources */ = {isa = PBXBuildFile; fileRef = 555682791BEE7FD100E217ED /* ViewController03.xib */; };
+		5556827E1BEE7FDD00E217ED /* ViewController04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5556827C1BEE7FDD00E217ED /* ViewController04.swift */; };
+		5556827F1BEE7FDD00E217ED /* ViewController04.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5556827D1BEE7FDD00E217ED /* ViewController04.xib */; };
+		555682831BEE811F00E217ED /* ViewController06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555682811BEE811F00E217ED /* ViewController06.swift */; };
+		555682841BEE811F00E217ED /* ViewController06.xib in Resources */ = {isa = PBXBuildFile; fileRef = 555682821BEE811F00E217ED /* ViewController06.xib */; };
+		559BEE061C66951F00CAA7F6 /* ViewControllerWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559BEE051C66951F00CAA7F6 /* ViewControllerWebView.swift */; };
+		55A553CE1C29901E00762031 /* coreDataFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A553CD1C29901E00762031 /* coreDataFunc.swift */; };
+		55D8CFFF1C429DC800913BA8 /* ViewControllerTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D8CFFE1C429DC800913BA8 /* ViewControllerTable.swift */; };
+		55D8D0011C429E7300913BA8 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D8D0001C429E7300913BA8 /* TableViewCell2.swift */; };
+		55F71E611C67739700D248D4 /* ViewControllerShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F71E601C67739700D248D4 /* ViewControllerShareView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5556825D1BEE4C0A00E217ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5556823C1BEE4C0A00E217ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 555682431BEE4C0A00E217ED;
+			remoteInfo = Sommerjobben;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5531936E1C24420700A9BAE7 /* ViewController07.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController07.swift; sourceTree = "<group>"; };
+		553193701C2477E100A9BAE7 /* globalValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = globalValues.swift; sourceTree = "<group>"; };
+		555682441BEE4C0A00E217ED /* Sommerjobben.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sommerjobben.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		555682481BEE4C0A00E217ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		555682491BEE4C0A00E217ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5556824C1BEE4C0A00E217ED /* Sommerjobben.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sommerjobben.xcdatamodel; sourceTree = "<group>"; };
+		5556824E1BEE4C0A00E217ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		555682511BEE4C0A00E217ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		555682531BEE4C0A00E217ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		555682561BEE4C0A00E217ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5556825C1BEE4C0A00E217ED /* SommerjobbenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SommerjobbenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		555682611BEE4C0A00E217ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		555682621BEE4C0A00E217ED /* SommerjobbenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SommerjobbenTests.swift; sourceTree = "<group>"; };
+		5556826E1BEE4FB200E217ED /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		555682701BEE601400E217ED /* ViewController02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController02.swift; sourceTree = "<group>"; };
+		555682781BEE7FD100E217ED /* ViewController03.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController03.swift; path = Sommerjobben.xcodeproj/ViewController03.swift; sourceTree = SOURCE_ROOT; };
+		555682791BEE7FD100E217ED /* ViewController03.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController03.xib; path = Sommerjobben.xcodeproj/ViewController03.xib; sourceTree = SOURCE_ROOT; };
+		5556827C1BEE7FDD00E217ED /* ViewController04.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController04.swift; path = Sommerjobben/ViewController04.swift; sourceTree = SOURCE_ROOT; };
+		5556827D1BEE7FDD00E217ED /* ViewController04.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController04.xib; path = Sommerjobben/ViewController04.xib; sourceTree = SOURCE_ROOT; };
+		555682811BEE811F00E217ED /* ViewController06.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController06.swift; sourceTree = "<group>"; };
+		555682821BEE811F00E217ED /* ViewController06.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController06.xib; sourceTree = "<group>"; };
+		559BEE051C66951F00CAA7F6 /* ViewControllerWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerWebView.swift; sourceTree = "<group>"; };
+		55A553CD1C29901E00762031 /* coreDataFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = coreDataFunc.swift; sourceTree = "<group>"; };
+		55D8CFFE1C429DC800913BA8 /* ViewControllerTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTable.swift; sourceTree = "<group>"; };
+		55D8D0001C429E7300913BA8 /* TableViewCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		55F71E601C67739700D248D4 /* ViewControllerShareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerShareView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		555682411BEE4C0A00E217ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555682591BEE4C0A00E217ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5556823B1BEE4C0A00E217ED = {
+			isa = PBXGroup;
+			children = (
+				555682461BEE4C0A00E217ED /* Sommerjobben */,
+				5556825F1BEE4C0A00E217ED /* SommerjobbenTests */,
+				555682451BEE4C0A00E217ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		555682451BEE4C0A00E217ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				555682441BEE4C0A00E217ED /* Sommerjobben.app */,
+				5556825C1BEE4C0A00E217ED /* SommerjobbenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		555682461BEE4C0A00E217ED /* Sommerjobben */ = {
+			isa = PBXGroup;
+			children = (
+				555682491BEE4C0A00E217ED /* AppDelegate.swift */,
+				555682801BEE800A00E217ED /* SubViewControllers */,
+				555682701BEE601400E217ED /* ViewController02.swift */,
+				55A553CD1C29901E00762031 /* coreDataFunc.swift */,
+				553193701C2477E100A9BAE7 /* globalValues.swift */,
+				5556826E1BEE4FB200E217ED /* TableViewCell.swift */,
+				555682501BEE4C0A00E217ED /* Main.storyboard */,
+				5556824E1BEE4C0A00E217ED /* ViewController.swift */,
+				55F71E601C67739700D248D4 /* ViewControllerShareView.swift */,
+				559BEE051C66951F00CAA7F6 /* ViewControllerWebView.swift */,
+				55D8D0001C429E7300913BA8 /* TableViewCell2.swift */,
+				55D8CFFE1C429DC800913BA8 /* ViewControllerTable.swift */,
+				5531936E1C24420700A9BAE7 /* ViewController07.swift */,
+				555682531BEE4C0A00E217ED /* Images.xcassets */,
+				555682551BEE4C0A00E217ED /* LaunchScreen.xib */,
+				5556824B1BEE4C0A00E217ED /* Sommerjobben.xcdatamodeld */,
+				555682471BEE4C0A00E217ED /* Supporting Files */,
+			);
+			path = Sommerjobben;
+			sourceTree = "<group>";
+		};
+		555682471BEE4C0A00E217ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				555682481BEE4C0A00E217ED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5556825F1BEE4C0A00E217ED /* SommerjobbenTests */ = {
+			isa = PBXGroup;
+			children = (
+				555682621BEE4C0A00E217ED /* SommerjobbenTests.swift */,
+				555682601BEE4C0A00E217ED /* Supporting Files */,
+			);
+			path = SommerjobbenTests;
+			sourceTree = "<group>";
+		};
+		555682601BEE4C0A00E217ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				555682611BEE4C0A00E217ED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		555682801BEE800A00E217ED /* SubViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				555682811BEE811F00E217ED /* ViewController06.swift */,
+				555682821BEE811F00E217ED /* ViewController06.xib */,
+				555682781BEE7FD100E217ED /* ViewController03.swift */,
+				555682791BEE7FD100E217ED /* ViewController03.xib */,
+				5556827C1BEE7FDD00E217ED /* ViewController04.swift */,
+				5556827D1BEE7FDD00E217ED /* ViewController04.xib */,
+			);
+			name = SubViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		555682431BEE4C0A00E217ED /* Sommerjobben */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555682661BEE4C0A00E217ED /* Build configuration list for PBXNativeTarget "Sommerjobben" */;
+			buildPhases = (
+				555682401BEE4C0A00E217ED /* Sources */,
+				555682411BEE4C0A00E217ED /* Frameworks */,
+				555682421BEE4C0A00E217ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sommerjobben;
+			productName = Sommerjobben;
+			productReference = 555682441BEE4C0A00E217ED /* Sommerjobben.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5556825B1BEE4C0A00E217ED /* SommerjobbenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555682691BEE4C0A00E217ED /* Build configuration list for PBXNativeTarget "SommerjobbenTests" */;
+			buildPhases = (
+				555682581BEE4C0A00E217ED /* Sources */,
+				555682591BEE4C0A00E217ED /* Frameworks */,
+				5556825A1BEE4C0A00E217ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5556825E1BEE4C0A00E217ED /* PBXTargetDependency */,
+			);
+			name = SommerjobbenTests;
+			productName = SommerjobbenTests;
+			productReference = 5556825C1BEE4C0A00E217ED /* SommerjobbenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5556823C1BEE4C0A00E217ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Joakim Nereng Ellestad";
+				TargetAttributes = {
+					555682431BEE4C0A00E217ED = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = Z9H34E236H;
+					};
+					5556825B1BEE4C0A00E217ED = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 555682431BEE4C0A00E217ED;
+					};
+				};
+			};
+			buildConfigurationList = 5556823F1BEE4C0A00E217ED /* Build configuration list for PBXProject "Sommerjobben" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5556823B1BEE4C0A00E217ED;
+			productRefGroup = 555682451BEE4C0A00E217ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				555682431BEE4C0A00E217ED /* Sommerjobben */,
+				5556825B1BEE4C0A00E217ED /* SommerjobbenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		555682421BEE4C0A00E217ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555682521BEE4C0A00E217ED /* Main.storyboard in Resources */,
+				555682571BEE4C0A00E217ED /* LaunchScreen.xib in Resources */,
+				555682841BEE811F00E217ED /* ViewController06.xib in Resources */,
+				555682541BEE4C0A00E217ED /* Images.xcassets in Resources */,
+				5556827F1BEE7FDD00E217ED /* ViewController04.xib in Resources */,
+				5556827B1BEE7FD100E217ED /* ViewController03.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5556825A1BEE4C0A00E217ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		555682401BEE4C0A00E217ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559BEE061C66951F00CAA7F6 /* ViewControllerWebView.swift in Sources */,
+				5556824F1BEE4C0A00E217ED /* ViewController.swift in Sources */,
+				5556826F1BEE4FB200E217ED /* TableViewCell.swift in Sources */,
+				55D8D0011C429E7300913BA8 /* TableViewCell2.swift in Sources */,
+				5556824D1BEE4C0A00E217ED /* Sommerjobben.xcdatamodeld in Sources */,
+				55F71E611C67739700D248D4 /* ViewControllerShareView.swift in Sources */,
+				5556827A1BEE7FD100E217ED /* ViewController03.swift in Sources */,
+				5556827E1BEE7FDD00E217ED /* ViewController04.swift in Sources */,
+				5556824A1BEE4C0A00E217ED /* AppDelegate.swift in Sources */,
+				553193711C2477E100A9BAE7 /* globalValues.swift in Sources */,
+				55A553CE1C29901E00762031 /* coreDataFunc.swift in Sources */,
+				55D8CFFF1C429DC800913BA8 /* ViewControllerTable.swift in Sources */,
+				555682711BEE601400E217ED /* ViewController02.swift in Sources */,
+				555682831BEE811F00E217ED /* ViewController06.swift in Sources */,
+				5531936F1C24420700A9BAE7 /* ViewController07.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555682581BEE4C0A00E217ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555682631BEE4C0A00E217ED /* SommerjobbenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5556825E1BEE4C0A00E217ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 555682431BEE4C0A00E217ED /* Sommerjobben */;
+			targetProxy = 5556825D1BEE4C0A00E217ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		555682501BEE4C0A00E217ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				555682511BEE4C0A00E217ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		555682551BEE4C0A00E217ED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				555682561BEE4C0A00E217ED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		555682641BEE4C0A00E217ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		555682651BEE4C0A00E217ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		555682671BEE4C0A00E217ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Sommerjobben/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ellestad1995.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		555682681BEE4C0A00E217ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Sommerjobben/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ellestad1995.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5556826A1BEE4C0A00E217ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SommerjobbenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ellestad1995.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sommerjobben.app/Sommerjobben";
+			};
+			name = Debug;
+		};
+		5556826B1BEE4C0A00E217ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SommerjobbenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ellestad1995.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sommerjobben.app/Sommerjobben";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5556823F1BEE4C0A00E217ED /* Build configuration list for PBXProject "Sommerjobben" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555682641BEE4C0A00E217ED /* Debug */,
+				555682651BEE4C0A00E217ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555682661BEE4C0A00E217ED /* Build configuration list for PBXNativeTarget "Sommerjobben" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555682671BEE4C0A00E217ED /* Debug */,
+				555682681BEE4C0A00E217ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555682691BEE4C0A00E217ED /* Build configuration list for PBXNativeTarget "SommerjobbenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5556826A1BEE4C0A00E217ED /* Debug */,
+				5556826B1BEE4C0A00E217ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5556824B1BEE4C0A00E217ED /* Sommerjobben.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5556824C1BEE4C0A00E217ED /* Sommerjobben.xcdatamodel */,
+			);
+			currentVersion = 5556824C1BEE4C0A00E217ED /* Sommerjobben.xcdatamodel */;
+			path = Sommerjobben.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5556823C1BEE4C0A00E217ED /* Project object */;
+}
